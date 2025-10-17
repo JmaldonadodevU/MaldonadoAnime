@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: var(--light-gray);
+  color: var(--white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--crunchy-orange);
+}
+
+.links a {
+  margin-left: 20px;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.links a:hover {
+  color: var(--crunchy-orange);
+}

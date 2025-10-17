@@ -1,0 +1,13 @@
+:root {
+  --crunchy-orange: #f47521;
+  --dark-bg: #0d0d0d;
+  --light-gray: #1e1e1e;
+  --white: #f5f5f5;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}

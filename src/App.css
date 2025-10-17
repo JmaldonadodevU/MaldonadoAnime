@@ -1,0 +1,29 @@
+:root {
+  --crunchy-orange: #f47521;
+  --dark-bg: #0b0b0b;
+  --light-gray: #2c2c2c;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  background-color: var(--dark-bg);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--crunchy-orange);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ff8c42;
+}

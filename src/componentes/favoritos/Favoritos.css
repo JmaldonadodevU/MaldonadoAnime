@@ -1,0 +1,40 @@
+.favoritos-container {
+  padding: 40px;
+  text-align: center;
+  color: var(--white);
+}
+
+.favoritos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.favorito-card {
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.favorito-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.favorito-card button {
+  margin-top: 10px;
+  background-color: var(--crunchy-orange);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: white;
+}
+
+.favorito-card button:hover {
+  background-color: #ff8c42;
+}
